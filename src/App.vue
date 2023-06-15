@@ -1,18 +1,19 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PageHeader from './components/PageHeader.vue'
 
 export default {
   components: {
 
-    HelloWorld
+    PageHeader
 
   }
 }
 </script>
 
 <template>
+
+  <PageHeader/>
   
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style lang="scss">
