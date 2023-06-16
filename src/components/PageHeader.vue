@@ -94,10 +94,13 @@ export default {
       </div>
     </div>
     <div class="container_image">
-      <img src="../assets/img/home_main_slider_bg.jpg" alt="">
-        
-
-      </div>
+      
+          <h1>Inspiring Tomorrow Leaders</h1>
+          <h3>The Future Belongs To Those Who See Possibilities Today</h3>
+          <button id="b1">FIND A COURSE</button>
+           <span><button id="b2">APPLY NOW</button></span>
+      
+    </div>
   </header>
 
 
@@ -145,8 +148,13 @@ a{
 }
 .container_image{
   width: 100%;
-  height: 350px;
+  height: 500px;
+  background-color: black;
+  background-image: url(../assets/img/home_main_slider_bg.jpg);
+  text-align: center;
+  color: white;
 }
+
 
  
 

@@ -11,11 +11,27 @@ body {
 }
 img {
     max-width: 100%;
-    margin: 20px;
+    
 }
 p {
-    text-align: justify;
+    color: grey;
+    
 }
 a{
     margin: 0 auto;
 }
+button{
+    border-radius: 0;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border: 0;
+
+}
+#b1{
+    background-color: orange;
+}
+#b2{
+    background-color: lightseagreen;
+}
+
