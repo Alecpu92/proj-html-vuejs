@@ -50,17 +50,23 @@ export default {
         <section>
             <div id="container-viewmore">
                 <div id="view-1">
-                     
-
+                    <h2>COURSES</h2>
+                   <h4>view more</h4>
                 </div>
                 <div id="view-2">
-
+                   <h2>EVENTS</h2>
+                   <h4>view more</h4>
                 </div>
                 <div id="view-3">
-
-                </div>
+                    <h2>LATEST NEWS</h2>
+                    <h4>view more</h4>
+                </div>   
             </div>
-       
+        </section>
+        <section id="excellence">
+            <img src="../assets/img/university_logo.png" alt="">
+            <h2>Today University News</h2>
+            <p>Covering topics from classes to politics and student organization events</p>
         </section>
     </main>
 
@@ -87,21 +93,31 @@ export default {
     width: 50%;
 }
 #container-viewmore{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    
     height: 400px;
     width: 100%;
-    background-color: yellow;
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
 }
 #view-1{
     border-color: black;
+    background-image: url(../assets/img/home_courses_section_bg.jpg);
+    width: 33%;
 }
 #view-2{
     border-color: black;
+    background-image: url(../assets/img/home_events_section_bg.jpg);
+    width: 33%;
+    
 }
 #view-3{
     border-color: black;
+    background-image: url(../assets/img/home_latest_news_section_bg.jpg);
+    width: 33%;
 }
 
  

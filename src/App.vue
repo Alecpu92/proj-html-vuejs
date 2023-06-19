@@ -10,13 +10,64 @@ export default {
     PageMain,
     PageFooter
 
-  }
+  },
+  data() {
+      return {
+        menu: [
+          {
+            text: "HOME",
+            url: "#",
+            current: true,
+
+          },
+          {
+            text: "ABOUT",
+            url: "#",
+            current: false,
+
+          },
+          {
+            text: "COURSES NEW",
+            url: "#",
+            current: false,
+
+          },
+          {
+            text: "EVENTS",
+            url: "#",
+            current: false,
+
+          },
+          {
+            text: "FACILITIES",
+            url: "#",
+            current: false,
+
+          },
+          {
+            text: "NEWS",
+            url: "#",
+            current: false,
+
+          },
+          {
+            text: "ADMISSION APPLY",
+            url: "#",
+            current: false,
+
+          },
+          
+        ]
+      }
+    }
+
 }
+
 </script>
 
 <template>
 
-  <PageHeader/>
+  <PageHeader :links="menu"/>
   <PageMain/>
   <PageFooter/>
   

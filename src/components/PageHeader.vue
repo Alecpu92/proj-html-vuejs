@@ -4,54 +4,8 @@
 
 export default {
     name: "PageHeader",
-    data() {
-      return {
-        links: [
-          {
-            text: "HOME",
-            url: "#",
-            current: true,
-
-          },
-          {
-            text: "ABOUT",
-            url: "#",
-            current: false,
-
-          },
-          {
-            text: "COURSES NEW",
-            url: "#",
-            current: false,
-
-          },
-          {
-            text: "EVENTS",
-            url: "#",
-            current: false,
-
-          },
-          {
-            text: "FACILITIES",
-            url: "#",
-            current: false,
-
-          },
-          {
-            text: "NEWS",
-            url: "#",
-            current: false,
-
-          },
-          {
-            text: "ADMISSION APPLY",
-            url: "#",
-            current: false,
-
-          },
-          
-        ]
-      }
+    props: {
+      links: Array,
     }
 
 }
